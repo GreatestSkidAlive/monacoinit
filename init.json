@@ -474,6 +474,48 @@
         "type": "Method",
         "description": "Runs dex explorer V4 Dark.",
         "insert": "salad.dex"
-    }
+    },
+      "krampus.globalprint": {
+    "label": "krampus.globalprint(message)",
+    "type": "Method",
+    "description": "sends a message to the server console making everyone able to see it",
+    "insert": "krampus.globalprint"
+  },
+    "krampus.writeclipboard": {
+    "label": "krampus.writeclipboard(message)",
+    "type": "Method",
+    "description": "copy's a text to your clipboard",
+    "insert": "krampus.writeclipboard"
+  }
+    "krampus.rejoininstance": {
+    "label": "krampus.rejoininstance()",
+    "type": "Method",
+    "description": "Make's the user rejoin the game",
+    "insert": "krampus.rejoininstance"
+  },
+    "krampus.iy": {
+    "label": "krampus.iy()",
+    "type": "Method",
+    "description": "Executes Infinite Yield",
+    "insert": "krampus.iy"
+  },
+    "krampus.printidentity": {
+    "label": "krampus.printidentity()",
+    "type": "Method",
+    "description": "a better version of printidentity",
+    "insert": "krampus.printidentity"
+  },
+    "krampus.executorname": {
+    "label": "krampus.executorname()",
+    "type": "Method",
+    "description": "prints your executor's name in the console",
+    "insert": "krampus.executorname"
+  },
+    "krampus.import": {
+    "label": "krampus.import(url)",
+    "type": "Method",
+    "description": "a short cut of loadstring(game:HttpGet())()",
+    "insert": "krampus.import"
+  }
 }
 }
