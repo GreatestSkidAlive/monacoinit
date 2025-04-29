@@ -377,6 +377,12 @@
           "type": "Method",
           "description": "a short cut of loadstring(game:HttpGet())()",
           "insert": "krampus.import"
+      },
+      "krampus.dex": {
+          "label": "krampus.dex()",
+          "type": "Method",
+          "description": "loads dark dex",
+          "insert": "krampus.dex"
       }
   },
   "debug_library": {
