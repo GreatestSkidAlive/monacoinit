@@ -390,90 +390,47 @@
           "insert": "Drawing.new"
       } 
   },
-  "taxus_library": {
-    "taxus.get_player_by_name": {
-        "label": "taxus.get_player_by_name(username);",
-        "type": "Method",
-        "description": "Gets a player by their display name or username.",
-        "insert": "taxus.get_player_by_name"
-    },
-    "taxus.get_hrp": {
-        "label": "taxus.get_hrp(username);",
-        "type": "Method",
-        "description": "Gets the humanoidrootpart of a player.",
-        "insert": "taxus.get_hrp"
-    },
-    "taxus.remote_spy": {
-        "label": "taxus.remote_spy();",
-        "type": "Method",
-        "description": "Runs a remote spy supported by taxus.",
-        "insert": "taxus.remote_spy"
-    },
-    "taxus.teleport": {
-        "label": "taxus.teleport(vector3);",
-        "type": "Method",
-        "description": "Teleports the local player to a position",
-        "insert": "taxus.teleport"
-    },
-    "taxus.is_player_alive": {
-        "label": "taxus.is_player_alive(username);",
-        "type": "Method",
-        "description": "Checks if a player is alive.",
-        "insert": "taxus.is_player_alive"
-    },
-    "taxus.teleport_to_player": {
-        "label": "taxus.teleport_to_player(username);",
-        "type": "Method",
-        "description": "Teleports the local player to the position of the target player.",
-        "insert": "taxus.teleport_to_player"
-    },
-    "taxus.get_distance": {
-        "label": "taxus.get_distance(username);",
-        "type": "Method",
-        "description": "Calculates the distance between two players.",
-        "insert": "taxus.get_distance"
-    },
-    "taxus.enable_internal": {
-        "label": "taxus.enable_internal();",
-        "type": "Method",
-        "description": "Enables Taxus's internal UI.",
-        "insert": "taxus.enable_internal"
-    },
-    "taxus.disable_internal": {
-        "label": "taxus.disable_internal();",
-        "type": "Method",
-        "description": "Disables Taxus's internal UI.",
-        "insert": "taxus.disable_internal"
-    },
-    "taxus.enable_antilogger": {
-        "label": "taxus.enable_antilogger();",
-        "type": "Method",
-        "description": "Enables Taxus's Anti-Ip-Logger",
-        "insert": "taxus.enable_antilogger"
-    },
-    "taxus.disable_antilogger": {
-        "label": "taxus.disable_antilogger();",
-        "type": "Method",
-        "description": "Disables Taxus's Anti-Ip-Logger",
-        "insert": "taxus.disable_antilogger"
-    },
-    "taxus.enable_httpspy": {
-        "label": "taxus.enable_httpspy();",
-        "type": "Method",
-        "description": "Enables Taxus's HTTP Spy",
-        "insert": "taxus.enable_httpspy"
-    },
-    "taxus.disable_httpspy": {
-        "label": "taxus.disable_httpspy();",
-        "type": "Method",
-        "description": "Disables Taxus's HTTP Spy",
-        "insert": "taxus.disable_httpspy"
-    },
-    "taxus.dex": {
-        "label": "taxus.dex();",
-        "type": "Method",
-        "description": "Runs dex explorer V4 Dark.",
-        "insert": "taxus.dex"
-    }
+  "krampus.globalprint": {
+    "label": "krampus.globalprint(message)",
+    "type": "Method",
+    "description": "sends a message to the server console making everyone able to see it",
+    "insert": "krampus.globalprint"
+  }
+    "krampus.writeclipboard": {
+    "label": "krampus.writeclipboard(message)",
+    "type": "Method",
+    "description": "copy's a text to your clipboard",
+    "insert": "krampus.writeclipboard"
+  }
+    "krampus.rejoininstance": {
+    "label": "krampus.rejoininstance()",
+    "type": "Method",
+    "description": "Make's the user rejoin the game",
+    "insert": "krampus.rejoininstance"
+  }
+    "krampus.iy": {
+    "label": "krampus.iy()",
+    "type": "Method",
+    "description": "Executes Infinite Yield",
+    "insert": "krampus.iy"
+  }
+    "krampus.printidentity": {
+    "label": "krampus.printidentity()",
+    "type": "Method",
+    "description": "a better version of printidentity",
+    "insert": "krampus.printidentity"
+  }
+    "krampus.executorname": {
+    "label": "krampus.executorname()",
+    "type": "Method",
+    "description": "prints your executor's name in the console",
+    "insert": "krampus.executorname"
+  }
+    "krampus.import": {
+    "label": "krampus.import(url)",
+    "type": "Method",
+    "description": "a short cut of loadstring(game:HttpGet())()",
+    "insert": "krampus.import"
+  }
 }
 }
