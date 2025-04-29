@@ -232,7 +232,7 @@
       "getgenv": {
           "label": "getgenv();",
           "type": "Method",
-          "description": "Returns the environment that will be applied to each script ran by salad.",
+          "description": "Returns the environment that will be applied to each script ran by taxus.",
           "insert": "getgenv"
       },
       "rconsoleprint": {
@@ -390,132 +390,90 @@
           "insert": "Drawing.new"
       } 
   },
-  "salad_library": {
-    "salad.get_player_by_name": {
-        "label": "salad.get_player_by_name(username);",
+  "taxus_library": {
+    "taxus.get_player_by_name": {
+        "label": "taxus.get_player_by_name(username);",
         "type": "Method",
         "description": "Gets a player by their display name or username.",
-        "insert": "salad.get_player_by_name"
+        "insert": "taxus.get_player_by_name"
     },
-    "salad.get_hrp": {
-        "label": "salad.get_hrp(username);",
+    "taxus.get_hrp": {
+        "label": "taxus.get_hrp(username);",
         "type": "Method",
         "description": "Gets the humanoidrootpart of a player.",
-        "insert": "salad.get_hrp"
+        "insert": "taxus.get_hrp"
     },
-    "salad.remote_spy": {
-        "label": "salad.remote_spy();",
+    "taxus.remote_spy": {
+        "label": "taxus.remote_spy();",
         "type": "Method",
-        "description": "Runs a remote spy supported by salad.",
-        "insert": "salad.remote_spy"
+        "description": "Runs a remote spy supported by taxus.",
+        "insert": "taxus.remote_spy"
     },
-    "salad.teleport": {
-        "label": "salad.teleport(vector3);",
+    "taxus.teleport": {
+        "label": "taxus.teleport(vector3);",
         "type": "Method",
         "description": "Teleports the local player to a position",
-        "insert": "salad.teleport"
+        "insert": "taxus.teleport"
     },
-    "salad.is_player_alive": {
-        "label": "salad.is_player_alive(username);",
+    "taxus.is_player_alive": {
+        "label": "taxus.is_player_alive(username);",
         "type": "Method",
         "description": "Checks if a player is alive.",
-        "insert": "salad.is_player_alive"
+        "insert": "taxus.is_player_alive"
     },
-    "salad.teleport_to_player": {
-        "label": "salad.teleport_to_player(username);",
+    "taxus.teleport_to_player": {
+        "label": "taxus.teleport_to_player(username);",
         "type": "Method",
         "description": "Teleports the local player to the position of the target player.",
-        "insert": "salad.teleport_to_player"
+        "insert": "taxus.teleport_to_player"
     },
-    "salad.get_distance": {
-        "label": "salad.get_distance(username);",
+    "taxus.get_distance": {
+        "label": "taxus.get_distance(username);",
         "type": "Method",
         "description": "Calculates the distance between two players.",
-        "insert": "salad.get_distance"
+        "insert": "taxus.get_distance"
     },
-    "salad.enable_internal": {
-        "label": "salad.enable_internal();",
+    "taxus.enable_internal": {
+        "label": "taxus.enable_internal();",
         "type": "Method",
-        "description": "Enables Salad's internal UI.",
-        "insert": "salad.enable_internal"
+        "description": "Enables taxus's internal UI.",
+        "insert": "taxus.enable_internal"
     },
-    "salad.disable_internal": {
-        "label": "salad.disable_internal();",
+    "taxus.disable_internal": {
+        "label": "taxus.disable_internal();",
         "type": "Method",
-        "description": "Disables Salad's internal UI.",
-        "insert": "salad.disable_internal"
+        "description": "Disables taxus's internal UI.",
+        "insert": "taxus.disable_internal"
     },
-    "salad.enable_antilogger": {
-        "label": "salad.enable_antilogger();",
+    "taxus.enable_antilogger": {
+        "label": "taxus.enable_antilogger();",
         "type": "Method",
-        "description": "Enables Salad's Anti-Ip-Logger",
-        "insert": "salad.enable_antilogger"
+        "description": "Enables taxus's Anti-Ip-Logger",
+        "insert": "taxus.enable_antilogger"
     },
-    "salad.disable_antilogger": {
-        "label": "salad.disable_antilogger();",
+    "taxus.disable_antilogger": {
+        "label": "taxus.disable_antilogger();",
         "type": "Method",
-        "description": "Disables Salad's Anti-Ip-Logger",
-        "insert": "salad.disable_antilogger"
+        "description": "Disables taxus's Anti-Ip-Logger",
+        "insert": "taxus.disable_antilogger"
     },
-    "salad.enable_httpspy": {
-        "label": "salad.enable_httpspy();",
+    "taxus.enable_httpspy": {
+        "label": "taxus.enable_httpspy();",
         "type": "Method",
-        "description": "Enables Salad's HTTP Spy",
-        "insert": "salad.enable_httpspy"
+        "description": "Enables taxus's HTTP Spy",
+        "insert": "taxus.enable_httpspy"
     },
-    "salad.disable_httpspy": {
-        "label": "salad.disable_httpspy();",
+    "taxus.disable_httpspy": {
+        "label": "taxus.disable_httpspy();",
         "type": "Method",
-        "description": "Disables Salad's HTTP Spy",
-        "insert": "salad.disable_httpspy"
+        "description": "Disables taxus's HTTP Spy",
+        "insert": "taxus.disable_httpspy"
     },
-    "salad.dex": {
-        "label": "salad.dex();",
+    "taxus.dex": {
+        "label": "taxus.dex();",
         "type": "Method",
         "description": "Runs dex explorer V4 Dark.",
-        "insert": "salad.dex"
-    },
-      "krampus.globalprint": {
-    "label": "krampus.globalprint(message)",
-    "type": "Method",
-    "description": "sends a message to the server console making everyone able to see it",
-    "insert": "krampus.globalprint"
-  },
-    "krampus.writeclipboard": {
-    "label": "krampus.writeclipboard(message)",
-    "type": "Method",
-    "description": "copy's a text to your clipboard",
-    "insert": "krampus.writeclipboard"
-  }
-    "krampus.rejoininstance": {
-    "label": "krampus.rejoininstance()",
-    "type": "Method",
-    "description": "Make's the user rejoin the game",
-    "insert": "krampus.rejoininstance"
-  },
-    "krampus.iy": {
-    "label": "krampus.iy()",
-    "type": "Method",
-    "description": "Executes Infinite Yield",
-    "insert": "krampus.iy"
-  },
-    "krampus.printidentity": {
-    "label": "krampus.printidentity()",
-    "type": "Method",
-    "description": "a better version of printidentity",
-    "insert": "krampus.printidentity"
-  },
-    "krampus.executorname": {
-    "label": "krampus.executorname()",
-    "type": "Method",
-    "description": "prints your executor's name in the console",
-    "insert": "krampus.executorname"
-  },
-    "krampus.import": {
-    "label": "krampus.import(url)",
-    "type": "Method",
-    "description": "a short cut of loadstring(game:HttpGet())()",
-    "insert": "krampus.import"
-  }
+        "insert": "taxus.dex"
+    }
 }
 }
