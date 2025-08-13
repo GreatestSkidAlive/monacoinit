@@ -336,53 +336,53 @@
           "description": "Copies data to the clipboard.",
           "insert": "setclipboard"
       },
-      "krampus.globalprint": {
-          "label": "krampus.globalprint(message)",
+      "taxus.globalprint": {
+          "label": "taxus.globalprint(message)",
           "type": "Method",
           "description": "sends a message to the server console making everyone able to see it",
-          "insert": "krampus.globalprint"
+          "insert": "taxus.globalprint"
       },
-      "krampus.copyclipboard": {
-          "label": "krampus.copyclipboard(message)",
+      "taxus.copyclipboard": {
+          "label": "taxus.copyclipboard(message)",
           "type": "Method",
           "description": "copy's a text to your clipboard",
-          "insert": "krampus.copyclipboard"
+          "insert": "taxus.copyclipboard"
       },
-      "krampus.rejoininstance": {
-          "label": "krampus.rejoininstance()",
+      "taxus.rejoininstance": {
+          "label": "taxus.rejoininstance()",
           "type": "Method",
           "description": "Make's the user rejoin the game",
-          "insert": "krampus.rejoininstance"
+          "insert": "taxus.rejoininstance"
       },
-      "krampus.iy": {
-          "label": "krampus.iy()",
+      "taxus.iy": {
+          "label": "taxus.iy()",
           "type": "Method",
           "description": "Executes Infinite Yield",
-          "insert": "krampus.iy"
+          "insert": "taxus.iy"
       },
-      "krampus.printidentity": {
-          "label": "krampus.printidentity()",
+      "taxus.printidentity": {
+          "label": "taxus.printidentity()",
           "type": "Method",
           "description": "a better version of printidentity",
-          "insert": "krampus.printidentity"
+          "insert": "taxus.printidentity"
       },
-      "krampus.executorname": {
-          "label": "krampus.executorname()",
+      "taxus.executorname": {
+          "label": "taxus.executorname()",
           "type": "Method",
           "description": "prints your executor's name in the console",
-          "insert": "krampus.executorname"
+          "insert": "taxus.executorname"
       },
-      "krampus.import": {
-          "label": "krampus.import(url)",
+      "taxus.import": {
+          "label": "taxus.import(url)",
           "type": "Method",
           "description": "a short cut of loadstring(game:HttpGet())()",
-          "insert": "krampus.import"
+          "insert": "taxus.import"
       },
-      "krampus.dex": {
-          "label": "krampus.dex()",
+      "taxus.dex": {
+          "label": "taxus.dex()",
           "type": "Method",
           "description": "loads dark dex",
-          "insert": "krampus.dex"
+          "insert": "taxus.dex"
       }
   },
   "debug_library": {
